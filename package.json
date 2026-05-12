@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "backend:install": "cd backend && npm install",
+    "backend:start": "cd backend && node index.js",
+    "backend:dev": "cd backend && nodemon index.js"
+  },
+  "postinstall": "cd backend && npm install"
+}
